@@ -145,6 +145,11 @@ button, select {
     background-color: var(--color-subtle);
     position: absolute;
 }
+
+.about-img {
+    height: 60%;
+}
+
 /*------ Responsiveness ------*/
 @media (min-width: 481px) {
   .half-left,
