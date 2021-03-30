@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Homemade+Apple&family=Open+Sans&display=swap');
+
+/*------ Global ------*/
+
+:root {
+    --font-coromorant: 'Coromorant', sans-serif;
+    --color-black: #000000;
+    --color-subtle: #F0ECEC;
+    --color-white: #FFFFFF;
+    --color-brown: #997F4C;
+    --color-light-black: #313639;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-cormorant);
+    overflow-x: hidden;
+}
+
+.nav-link {   
+    color: rgba(43,51,50,1);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 13px;
+}
+
+.bg-light {
+    background-color: var(--color-subtle)!important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Lato';
+    font-size: 15px;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 0.02em;
+    font-size: 25px;
+}
