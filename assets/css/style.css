@@ -95,7 +95,7 @@ h4 {
     background-position: 50% 50%;
 }
 
-.cta-button {
+.cta-button, .cta-button:hover {
     border-color: rgba(86,87,79,1);
     border-width: 0px;
     background-color: rgba(43,51,50,1);
