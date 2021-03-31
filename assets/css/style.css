@@ -160,11 +160,28 @@ button, select {
     height: 395px;
     background-color: var(--color-subtle);
     margin-top: 5rem;
+    margin-bottom: 7rem;
 }
 
 .div-section-img-right img {
     margin-top: 10%;
     margin-left: 13.1%;
+}
+
+/*------ hp section5 ------*/
+
+.square-img { 
+  width: 250px;
+  height: 250px;
+  padding: 0;
+}
+
+.row-pictures {
+    text-align: center;
+}
+
+.hp-section-5 {
+    margin-top: 10rem;
 }
 /*------ Responsiveness ------*/
 @media (min-width: 481px) {
