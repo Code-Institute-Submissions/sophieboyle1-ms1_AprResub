@@ -142,6 +142,7 @@ button, select {
 
 .hp-section-2 {
     background-color: var(--color-subtle);
+    margin-bottom: 3rem;
 }
 
 /*------ hp section3 ------*/
@@ -149,6 +150,22 @@ button, select {
   text-align: center;
 }
 
+/*------ hp section4 ------*/
+.paragraph-img {
+    width: 645px;
+    opacity: 0.9;
+}
+
+.hp-section-3 {
+    height: 395px;
+    background-color: var(--color-subtle);
+    margin-top: 5rem;
+}
+
+.div-section-img-right img {
+    margin-top: 10%;
+    margin-left: 13.1%;
+}
 /*------ Responsiveness ------*/
 @media (min-width: 481px) {
   .half-left,
