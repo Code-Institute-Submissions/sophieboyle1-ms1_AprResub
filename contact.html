@@ -37,7 +37,44 @@
             </ul>
         </div>
     </nav>
+    <!-- Contact section -->
+    <section class="custom-section form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-header">Contact</h2>
+                    <span class="fa fa-phone fontawesome-icons" aria-hidden="true"></span>
+                    <span class="contact-number">(01) 123 4567</span>
+                    <span class="fa fa-envelope fontawesome-icons" aria-hidden="true"></span>
+                    <span class="contact-email"><a href="mailto:rosalie@gmail.com">rosalie@gmail.com</a></span>
+                </div>
+            </div>
+            <br>
+            <!-- Resource: Form code sourced from https://getbootstrap.com/docs/4.0/components/forms/ -->
+            <form>
+                <div class="row contact-form-text">
+                    <div class="col-12 col-sm-6">
+                        <label for="form-message" class="contact-form-text">Your Name</label>
+                        <input type="text" id="your-name" class="form-control" required>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <label for="form-message" class="contact-form-text">Your Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <label for="form-message" class="contact-form-text">What kind of shoot would you like?</label>
+                        <textarea class="form-control" id="form-message" rows="3" required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-light text-center" id="contact-btn-form">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 
 </body>
+
 
 </html>
