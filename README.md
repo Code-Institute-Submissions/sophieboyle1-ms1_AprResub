@@ -1,45 +1,100 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 1 - Resubmission
 
-Welcome sophieboyle1,
+### Table of Contents
+* [Project Summary](#project-summary)
+* [User Experience Design](#user-experinece-design)
+    * [The Strategy Plane](#the-strategy-plane)
+        * [User Stories](#user-stories)
+    * [The Scope Plane](#the-scope-plae)
+    * [The Structure Plane](#the-structure-plane)
+    * [The Skeleton Plane](#the-skeleton-plane)
+        * [Wireframes](#wireframes)
+    * [The Surface Plane](#the-surface-plane)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Future Features](#future-features)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# Project Summary
 
-## Gitpod Reminders
+This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The live website can be found [here]().
 
-`python3 -m http.server`
+# Rosalie Photography Responsive Website.
 
-A blue button should appear to click: *Make Public*,
+![homepage](assets/images/readme-images/main-image.png)
 
-Another blue button should appear to click: *Open Browser*.
+### Rosalie's Photography website is a personal portfolio of her work over the years, and most recent. It highlights some of her most popular photo's. There is a contact section so you can contact rosalie if you have any questions or wish to book a photo session with her.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# User Experience Design
 
-A blue button should appear to click: *Make Public*,
+## The Strategy Plane
 
-Another blue button should appear to click: *Open Browser*.
+As a user I want to: 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* I want to be able to easily navigate throughout the site to find content.
+* I want to easily understand the main purpose of the site and learn more about the photographer and their work.
+* I want to view the website and content clearly on my mobile device
+* I want to find ways to follow the photographer on different social media platforms.
+* I want to know a little more about the photographer and there experinece.
+* I want to be able to see the photographer's previous work.
+* I want to know what styles the photographer can do.
+* I want to be able to contact the photographer with any questions I might have.
 
-## Updates Since The Instructional Video
+## The Scope Plane
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## The Structure Plane
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## The Skeleton Plane
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Wireframes
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## The Surface Plane
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Existing Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Future Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Technologies]
 
---------
+# Testing
 
-Happy coding!
+# Deployment
+
+### Project Creation
+
+The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input MS1 and checked the Include all branches checkbox. I then navigated to the new repository. I then clicked the Code drop down and selected HTTPS and copied the link to the clipboard.
+
+Opening a bash terminal in Visual studio code I then typed git clone link from clipboard followed by open folder and navigating to the newly created local repository. The following commands were used throughout the project:
+
+* git add filename - This command was used to add fils to the staging area before commiting.
+* git commit -m **commit message explaining the updates** - This command was used to to commit changes to the local repository.
+* git push - This command is used to push all commited changes to the GitHub repository.
+
+### Using Github Pages
+* Navigate to the GitHub Repository:
+* Click the 'Settings' Tab.
+* Scroll Down to the Git Hub Pages Heading.
+* Select 'Master Branch' as the source.
+* Click the Save button.
+* Click on the link to go to the live deployed page.
+
+### Run Locally
+* Navigate to the GitHub Repository:
+* Click the Code drop down menu.
+* Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+* Open your developement editor of choice and open a terminal window in a directory of your choice.
+* Use the 'git clone' command in terminal followed by the copied git URL.
+* A clone of the project will be created locally on your machine.
+
+# Credits
+
+
+
+
