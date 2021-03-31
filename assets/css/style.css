@@ -142,7 +142,11 @@ button, select {
 
 .hp-section-2 {
     background-color: var(--color-subtle);
-    position: absolute;
+}
+
+/*------ hp section3 ------*/
+.column {
+  text-align: center;
 }
 
 /*------ Responsiveness ------*/
@@ -161,3 +165,10 @@ button, select {
   .half-left  > .container { right: 0;}
   .half-right > .container { left: 0; }
 }
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 950px;
+}
+}
+
