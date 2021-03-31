@@ -183,6 +183,29 @@ button, select {
 .hp-section-5 {
     margin-top: 10rem;
 }
+
+/*------ footer ------*/
+footer {
+	background-color:  var(--color-subtle);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  padding: .5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgba(43,51,50,1);
+  text-align: center;
+}
+
 /*------ Responsiveness ------*/
 @media (min-width: 481px) {
   .half-left,
