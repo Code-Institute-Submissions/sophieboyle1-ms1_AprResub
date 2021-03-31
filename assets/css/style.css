@@ -101,9 +101,6 @@ h4 {
     background-color: rgba(43,51,50,1);
     border-style: solid;
     border-radius: 0;
-}
-
-button, select {
     text-transform: uppercase;
     color: var(--color-white);
     padding: 8px 15px;
