@@ -203,6 +203,45 @@ footer {
   text-align: center;
 }
 
+/*------ Gallery Page ------*/
+
+.gallery-section {
+    background-color: #DED8D8;
+}
+
+.post-content-title {
+    overflow:hidden;
+    font-family: 'Cormorant';
+    padding-left: 3rem;
+}
+
+.post-thumb {
+    float: left;
+    clear:left;
+    width: 175px;
+    height: 175px;
+}
+
+.line {
+    margin-top: 23px;
+    margin-bottom: 45px;
+    border-bottom: 1px solid rgba(43,51,50,1);
+    width: 700px;
+}
+
+.div-section-text-right {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.post-content {
+    overflow:hidden;
+    padding-left: 3rem;
+    font-size: .9rem;
+}
+
+
+
 /*------ Responsiveness ------*/
 @media (min-width: 481px) {
   .half-left,
