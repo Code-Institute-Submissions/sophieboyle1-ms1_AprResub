@@ -63,18 +63,13 @@ h4 {
     font-size: 25px;
 }
 
-/*------ hp section 1 ------*/
-.col-xs-12 {
-  margin-bottom: 12px;
-  margin-top: 12px;
-  min-height: 200px;
-} 
+/*------ hp section 1 ------*/ 
 
 .half-left  img,
 .half-right img {
-  height: 70%;
   width: 90%;
   opacity: 0.5;
+  height: auto;
 }
 
 .hero-heading {
@@ -86,7 +81,7 @@ h4 {
     font-family: 'Cormorant';
     font-weight: 400;
     font-style: normal;
-    margin-top: 10rem;
+    margin-top: 13rem;
 }
 
 .hero-2 {
@@ -113,6 +108,10 @@ button, select {
     color: var(--color-white);
     padding: 8px 15px;
     font-size: .8rem;
+}
+
+.hero-text{
+    padding-right: 3rem;
 }
 
 /*------ hp section2 ------*/
@@ -144,10 +143,6 @@ button, select {
 .hp-section-2 {
     background-color: var(--color-subtle);
     position: absolute;
-}
-
-.about-img {
-    height: 60%;
 }
 
 /*------ Responsiveness ------*/
