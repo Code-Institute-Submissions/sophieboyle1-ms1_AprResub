@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+main {
+    min-height: calc(100vh - 165px);
+}
+
 body {
     font-family: var(--font-cormorant);
     overflow-x: hidden;
@@ -189,7 +193,6 @@ footer {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
 }
 
 .social-icon {
@@ -218,8 +221,8 @@ footer {
 .post-thumb {
     float: left;
     clear:left;
-    width: 175px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
 }
 
 .line {
@@ -298,6 +301,30 @@ footer {
   grid-row-end: 9;
 }
 
+/*------ Contact page ------*/
+.custom-section {
+    min-height: calc(100vh - 165px);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/contact.jpg');
+    height: 100vh;
+}
+
+form {
+    margin-top: 10rem;
+}
+.form-control {
+    border-radius: 0;
+    background-color: var(--color-subtle);
+}
+
+.btn-light {
+    font-size: 16px;
+    padding: 8px 15px;
+    font-size: .9rem;
+    border-radius: 0;
+    background-color: var(--color-subtle);
+    width: 7rem;
+    margin-top: 1.5rem;
+}
 
 /*------ Responsiveness ------*/
 @media (min-width: 481px) {

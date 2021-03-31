@@ -41,33 +41,32 @@
     <section class="custom-section form-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-header">Contact</h2>
-                    <span class="fa fa-phone fontawesome-icons" aria-hidden="true"></span>
-                    <span class="contact-number">(01) 123 4567</span>
-                    <span class="fa fa-envelope fontawesome-icons" aria-hidden="true"></span>
-                    <span class="contact-email"><a href="mailto:rosalie@gmail.com">rosalie@gmail.com</a></span>
-                </div>
-            </div>
-            <br>
             <!-- Resource: Form code sourced from https://getbootstrap.com/docs/4.0/components/forms/ -->
             <form>
                 <div class="row contact-form-text">
                     <div class="col-12 col-sm-6">
-                        <label for="form-message" class="contact-form-text">Your Name</label>
-                        <input type="text" id="your-name" class="form-control" required>
+                        <label for="form-message" class="contact-form-text"></label>
+                        <input type="text" id="fname" class="form-control" placeholder="First Name" required>
                     </div>
                     <div class="col-12 col-sm-6">
-                        <label for="form-message" class="contact-form-text">Your Email</label>
-                        <input type="email" class="form-control" id="email" required>
+                        <label for="form-message" class="contact-form-text"></label>
+                        <input type="text" id="lname" class="form-control" placeholder="Last Name" required>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <label for="form-message" class="contact-form-text"></label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <label for="form-message" class="contact-form-text"></label>
+                        <input type="text" class="form-control" id="location" placeholder="Location" required>
                     </div>
                     <br>
                     <div class="col-12">
-                        <label for="form-message" class="contact-form-text">What kind of shoot would you like?</label>
-                        <textarea class="form-control" id="form-message" rows="3" required></textarea>
+                        <label for="form-message" class="contact-form-text"></label>
+                        <textarea class="form-control" id="form-message" rows="3" placeholder="Message" required></textarea>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-light text-center" id="contact-btn-form">Submit</button>
+                        <button type="submit" class="btn btn-light text-center" id="contact-btn-form">Send</button>
                     </div>
                 </div>
             </form>
