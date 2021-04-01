@@ -247,6 +247,14 @@ footer {
     font-size: .9rem;
 }
 
+.service-title {
+    font-family: 'Cormorant';
+}
+
+.cards {
+   display: flex;
+}
+
 /* Gallery taken from https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
 .gallery {
   display: grid;
