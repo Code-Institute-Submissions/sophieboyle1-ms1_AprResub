@@ -247,8 +247,9 @@ footer {
     font-size: .9rem;
 }
 
-.service-title {
+.service-title, .about-title {
     font-family: 'Cormorant';
+    letter-spacing: 0.03em;
 }
 
 .cards {
@@ -325,6 +326,16 @@ footer {
   grid-column-end: 9;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+/*------ About page ------*/
+.img-fluid {
+    max-width: 90%;
+    height: auto;
+}
+
+.about-card {
+    margin-top: 5rem;
 }
 
 /*------ Contact page ------*/
