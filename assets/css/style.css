@@ -185,6 +185,10 @@ h4 {
     margin-top: 10rem;
 }
 
+.square-gallery {
+    margin-bottom: 3rem;
+}
+
 /*------ footer ------*/
 footer {
 	background-color:  var(--color-subtle);
@@ -206,19 +210,19 @@ footer {
   text-align: center;
 }
 
-/*------ Gallery Page ------*/
+/*------ Gallery Page/ Service page ------*/
 
-.gallery-section {
+.gallery-section, .service-section {
     background-color: #DED8D8;
 }
 
-.post-content-title {
+.post-content-title, .post-content-title-service {
     overflow:hidden;
     font-family: 'Cormorant';
     padding-left: 3rem;
 }
 
-.post-thumb {
+.post-thumb, .post-thumb-service {
     float: left;
     clear:left;
     width: 150px;
@@ -237,7 +241,7 @@ footer {
     margin-bottom: 3rem;
 }
 
-.post-content {
+.post-content, .post-content-services {
     overflow:hidden;
     padding-left: 3rem;
     font-size: .9rem;
