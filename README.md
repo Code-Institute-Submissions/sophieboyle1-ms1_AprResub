@@ -28,7 +28,7 @@ The live website can be found [here]().
 
 ![homepage](assets/images/readme-images/main-image.png)
 
-### Rosalie's Photography website is a personal portfolio of her work over the years, and most recent. It highlights some of her most popular photo's. There is a contact section so you can contact rosalie if you have any questions or wish to book a photo session with her.
+Rosalie's Photography website is a personal portfolio of her work over the years, and most recent. It highlights some of her most popular photo's. There is a contact section so you can contact rosalie if you have any questions or wish to book a photo session with her.
 
 # User Experience Design
 
@@ -61,7 +61,7 @@ As a user I want to:
 
 ## Future Features
 
-# Technologies]
+# Technologies
 
 # Testing
 
