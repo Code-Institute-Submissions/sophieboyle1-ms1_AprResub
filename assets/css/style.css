@@ -255,6 +255,20 @@ footer {
    display: flex;
 }
 
+.card {
+    border: 0px solid transparent;
+}
+
+.centered {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.card-img-top {
+    min-height: 55%;
+    width: 95%;
+}
+
 /* Gallery taken from https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/ */
 .gallery {
   display: grid;
