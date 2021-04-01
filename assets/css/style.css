@@ -332,6 +332,7 @@ footer {
 .img-about {
     max-width: 90%;
     height: auto;
+    padding-top: 1.5rem;
 }
 
 .about-card {
