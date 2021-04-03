@@ -63,6 +63,29 @@ As a user I want to:
 
 # Technologies
 
+* [HTML](https://www.w3schools.com/html/)
+    * This project uses HTML as the main language used to complete the structure of the Website.
+* [CSS](https://www.w3schools.com/css/)
+    * This project uses custom written CSS to style the Website.
+* [Bootstrap](https://getbootstrap.com/)
+    * The Bootstrap framework is used throughout this website for layouts and styling.
+* [Font Awesome](https://fontawesome.com/)
+    * Font awesome Icons are used for the Social media links contained in the Footer section of the website.
+* [Google Fonts](https://fonts.google.com/)
+    * Google fonts are used throughout the project to import the fonts.
+* [GitHub](https://github.com/)
+    * GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.
+* [Git](https://git-scm.com/)
+    * Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [Google Chrome Developer Tools]()
+    * Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [Balsamiq Wireframes](https://balsamiq.com/)
+    * This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* [Favicon](https://favicon.io/)
+    *Favicon.io was used to make the site favicon
+* [Chrome Dev Tools ](https://developer.chrome.com/docs/devtools/)
+    * Used throughout the development of the website to quickly see changes and find problems.
+
 # Testing
 
 # Deployment
@@ -95,6 +118,23 @@ Opening a bash terminal in Visual studio code I then typed git clone link from c
 
 # Credits
 
+## Code
 
+* The gallery layout was found from [Freecodecamp](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
+* The testomonials on the about page was taken from [bbbootstrap](https://bbbootstrap.com/snippets/bootstrap-testimonial-card-section-72258218)
 
+## Media
+
+* All the media found on the site is from [Unsplash](https://unsplash.com/)
+
+## Content
+
+* The content was mostly written by me, but i did get some of the information from..
+* [simonpearephotography](https://www.simonpearephotography.com/wedding-photography-packages-and-prices)
+* [solophotography](https://www.google.com/search?q=solo+photography+package&sxsrf=ALeKk01nJdmrb0jsgW6_33idez_icucHaQ%3A1617453732729&ei=pGJoYOSOLJu71fAPj7qzqAU&oq=solo&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIECAAQQzIECAAQQzICCAAyBAgAEEMyCAguELEDEIMBMgUILhCxAzIOCC4QsQMQgwEQxwEQrwEyAggAMgIIADoOCC4QsQMQgwEQxwEQowI6CAgAELEDEIMBOgUIABCxAzoICC4QxwEQowI6CggAELEDEIMBEEM6CAguEMcBEK8BUJ0PWPwRYOobaABwAngAgAH-A4gBlQeSAQcxLjMuNS0xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz)
+
+## Acknowledgements
+* I'd like to thank my mentor Spencer Barriball for his patience and guidance throughout my project.
+* My tutor Roman at the Kerry ETB for all the support he gives daily.
+* All at Code Institute and Tutor support.
 
