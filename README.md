@@ -47,19 +47,43 @@ As a user I want to:
 
 ## The Scope Plane
 
+I want to provide user with a simple overview of who the photographer is, what her skillsare, portfolio and how to contact her.
+
 ## The Structure Plane
+
+All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily. The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices. 
+The Home Page will contain a small bio about the the photographer. Custom CSS and/or Bootstrap will be used to make the Website responsive by the use of media queries and/or the Boostrap Grid system.
 
 ## The Skeleton Plane
 
 ### Wireframes
 
+![wireframes](assets/images/readme-images/ms1.png)
+
 ## The Surface Plane
+
+### Colour Scheme
+The two main colours used are pale pink #F0ECEC and an off shade of Brown #997F4C as these colours are neutral and easy to read to a white background.I also used a off black #313639, to really highlight text when used on the palepink. The brown and pink shade should compliment each other without being over powering to the eyes.
+
+### Typography
+The headers on all pages throughout the Website are using the 'Comorant' font while the main text is using the 'Lato' font. The cursive text I used throughout for the sub headings is 'Homemade Apple'.
+
+### Imagery 
+All images are found on [Unplash](https://unsplash.com/)
 
 # Features
 
 ## Existing Features
 
+* Desktop view (Alert present on index.html, about.html, gallery.html, contact.html).
+* Contact Form - This can be completed on the contact.html page and used in order to contact the photographer with any queries users may have.
+* Gallery page - there is a full gallery page with multiple photos.
+* Testomonials -  a section with three testomonials on the about page.
+
 ## Future Features
+
+* Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
+* In order to implement the use of the proposed forum, signup and logins would have to be added.
 
 # Technologies
 
