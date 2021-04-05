@@ -112,6 +112,20 @@ All images are found on [Unplash](https://unsplash.com/)
 
 # Testing
 
+### Form Testing
+* Tested the submit button with no input fields filled in to ensure the form would not submit without the required fields filled in.
+* Tested submitting the form without one of each of the required fields and the form will not submit without all required fields filled in.
+
+### Validating code
+* HTML
+    * Code was validated through W3 validator
+* CSS
+    * Code was validated through W3 Jigsaw
+
+### Link Testing
+* Navigation Menu links were all individually manually tested from each page of the website to ensure the user is directed to the correct page.
+* Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page. As currently the business does not have any active social media sites these links point to the main page for each platform eg. facebook.com etc.
+
 # Deployment
 
 ### Project Creation
