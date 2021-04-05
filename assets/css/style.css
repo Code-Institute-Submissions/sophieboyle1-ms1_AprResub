@@ -239,12 +239,6 @@ footer {
     margin-bottom: 3rem;
 }
 
-.post-content, .post-content-services {
-    overflow:hidden;
-    padding-left: 3rem;
-    font-size: .9rem;
-}
-
 .service-title, .about-title, .pack-header {
     font-family: 'Cormorant';
     letter-spacing: 0.03em;
@@ -488,6 +482,32 @@ form {
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 15px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+    .hero-heading {
+    margin-top: 0;
+}
+.column {
+    text-align: center;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+.div-section-img-right img {
+    margin-top: 10%;
+    margin-left: 13.1%;
+    width: 100%;
+}
+.card-img-top {
+    min-height: 0;
+    width: 95%;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0; 
 }
 }
 
