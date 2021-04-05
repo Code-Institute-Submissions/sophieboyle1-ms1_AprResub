@@ -112,6 +112,11 @@ All images are found on [Unplash](https://unsplash.com/)
 
 # Testing
 
+![responsive](assets/images/readme-images/responsive.png)
+
+### Responsive
+* This site was was tested on multiple browsers (Google Chrome, Mozzila Firefox and Opera) and on multiple mobile devices (Samsung Galaxy, Huawei, Sony) and it shown responsivness and compatibility.
+
 ### Form Testing
 * Tested the submit button with no input fields filled in to ensure the form would not submit without the required fields filled in.
 * Tested submitting the form without one of each of the required fields and the form will not submit without all required fields filled in.
