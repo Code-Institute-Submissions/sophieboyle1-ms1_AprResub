@@ -220,12 +220,6 @@ footer {
     background-color: #DED8D8;
 }
 
-.post-content-title, .post-content-title-service {
-    overflow:hidden;
-    font-family: 'Cormorant';
-    padding-left: 3rem;
-}
-
 .post-thumb, .post-thumb-service {
     float: left;
     clear:left;
@@ -251,7 +245,7 @@ footer {
     font-size: .9rem;
 }
 
-.service-title, .about-title {
+.service-title, .about-title, .pack-header {
     font-family: 'Cormorant';
     letter-spacing: 0.03em;
 }
